@@ -70,7 +70,7 @@ console.log(render(App, {}, { pretty: true }));
 
 ## JSX Mode
 
-The JSX rendering mode is especially useful if you're doing any kind of snapshot testing. It renders the output as if it was written in JSX.
+The JSX rendering mode is especially useful if you're doing any kind of snapshot testing. It renders the output as if it were written in JSX.
 
 ```jsx
 import render from 'preact-render-to-string/jsx';
